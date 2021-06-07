@@ -1,0 +1,18 @@
+package com.rlb.backend.classdiary.dto;
+
+import java.io.Serializable;
+
+import com.rlb.backend.classdiary.entities.Teacher;
+
+public class TeacherDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	public TeacherDTO () {
+		
+	}
+	
+	public TeacherDTO(Teacher entity) {
+		
+	}
+
+}

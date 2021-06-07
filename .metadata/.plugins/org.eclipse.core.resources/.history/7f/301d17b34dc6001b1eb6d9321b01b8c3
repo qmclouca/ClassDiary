@@ -1,0 +1,26 @@
+package com.rlb.backend.classdiary.entities;
+
+import java.io.Serializable;
+
+public class Student extends User implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+	private String currentClass;
+	
+	public Student () {
+		
+	}
+
+	public Student(String currentClass) {
+		this.currentClass = currentClass;
+	}
+
+	public String getCurrentClass() {
+		return currentClass;
+	}
+
+	public void setCurrentClass(String currentClass) {
+		this.currentClass = currentClass;
+	}
+
+}

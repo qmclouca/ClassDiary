@@ -1,0 +1,25 @@
+package com.rlb.backend.classdiary.entities;
+
+import java.io.Serializable;
+
+public class Teacher extends User implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+	private String subject;
+	
+	public Teacher () {
+		
+	}
+
+	public Teacher(String subject) {
+		this.subject = subject;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+}

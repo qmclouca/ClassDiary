@@ -1,0 +1,5 @@
+package com.rlb.backend.classdiary.services;
+
+public class DiaryService {
+
+}

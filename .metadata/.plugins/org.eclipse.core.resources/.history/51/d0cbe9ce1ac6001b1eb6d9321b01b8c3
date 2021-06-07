@@ -1,0 +1,5 @@
+package com.rlb.backend.classdiary.entities;
+
+public class Teacher {
+
+}

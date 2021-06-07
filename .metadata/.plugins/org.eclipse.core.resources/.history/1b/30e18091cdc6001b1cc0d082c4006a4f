@@ -1,0 +1,30 @@
+package com.rlb.backend.classdiary.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_teacher")
+public class Teacher extends User implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+	private String subject;
+	
+	public Teacher () {
+		
+	}
+
+	public Teacher(String subject) {
+		this.subject = subject;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+}

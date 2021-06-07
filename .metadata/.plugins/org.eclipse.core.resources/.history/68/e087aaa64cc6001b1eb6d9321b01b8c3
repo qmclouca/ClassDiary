@@ -1,0 +1,17 @@
+package com.rlb.backend.classdiary.dto;
+
+import java.io.Serializable;
+
+import com.rlb.backend.classdiary.entities.Student;
+
+public class StudentDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	public StudentDTO () {
+		
+	}
+	
+	public StudentDTO(Student entity) {
+		
+	}
+}
